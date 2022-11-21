@@ -1,0 +1,424 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:400,700&display=swap');
+
+@font-face {
+    font-family: 'Knockout';
+    src: local('Knockout-HTF73-FullHeviweight'),
+        url('https://www.covermanager.com/fonts/Knockout/hinted-Knockout-HTF73-FullHeviweight.woff2') format('woff2'),
+        url('https://www.covermanager.com/fonts/Knockout/hinted-Knockout-HTF73-FullHeviweight.woff') format('woff'),
+        url('https://www.covermanager.com/fonts/Knockout/hinted-Knockout-HTF73-FullHeviweight.ttf') format('truetype'),
+        url('https://www.covermanager.com/fonts/Knockout/hinted-Knockout-HTF73-FullHeviweight.svg#Knockout-HTF73-FullHeviweight') format('svg');  
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+body {
+    background: transparent;
+    color: #FFF;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+h2{
+	font-size: 20px;
+	font-weight: 700;
+}
+
+a , a:hover, a:focus {
+    color: #ee2737;
+	text-decoration: none;
+}
+
+span.bootstrap-timepicker-hour {
+    color: black;
+}
+span.bootstrap-timepicker-minute {
+    color: black;
+}
+
+body.single-locations #locationContentSide {
+    position: fixed;
+    top: 90px;
+    left: 45px;
+    bottom: 30px;
+}
+
+#datos_reserva {
+    margin-top: -10px;
+}
+
+a {
+	font-weight: 500 !important;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #000000;
+}
+
+div {
+	font-weight: 500 !important;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #000000;
+}
+
+.col-sm-6 label{
+	display:none;
+}
+
+.form-control{
+	margin: 12px 0;
+}
+
+.info_header2 a.pull-left{
+	color: #686868 !important;
+	font-size: 12px;
+}
+
+.pull-left{
+	color: #686868;
+	font-size: 12px;
+}
+
+.info_perview{
+	text-transform: uppercase;
+	font-size: 18px;
+	font-weight: 700;
+}
+
+a#have, a#have_es {
+  background-color: transparent;
+  color: #ee2737;
+  padding: 8px 20px;
+  border: 1px solid #ee2737;
+  text-decoration: none;
+  font-size: 13px !important;
+  float: right;
+}
+
+a#have:hover, a#have_es:hover  {
+  background-color: #ee2737;
+  color: #ffffff;
+}
+
+span.LV_validation_message.LV_invalid{
+	color: #ee2737;
+}
+
+.info_header1 {
+    display: none;
+}
+.info_header2 a.pull-left {
+    display: block;
+    float: none !important;
+    text-align: left;
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: black;
+}
+.form-control {
+    margin-bottom: 15px;
+}
+#commentary_div a {
+    color: black;
+    text-decoration: underline;
+}
+input[type=checkbox] {
+    margin-right: -3px;
+}
+#btn-validate {
+    border-color: white;
+    background-color: #ee2737;
+    color: white;
+    border-width: 2px;
+    font-size: 15px;
+}
+input.reservarButton {
+    background-color: #ffff00;
+    color: #fff;
+    border: 1px solid #ee2737;
+	font-family: 'Knockout', sans-serif;
+    margin: 0 auto;
+    height: 49px;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 22px;
+    letter-spacing: 2px;
+    border-radius: 0 !important;
+    margin-top: 20px;
+}
+
+.form-control{
+	font-family: 'Nunito Sans', sans-serif;
+	margin-bottom: 0px;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+
+.form-control:focus{
+	border-color: #BFBFBF;
+	box-shadow: 0 0 0px ;
+}
+
+input#finish_reserv_system.form-control{
+	background-color: #ee2737;
+    color: #fff;
+    border: 1px solid #ee2737;
+}
+
+input#finish_reserv_system.form-control:hover{
+	background-color: transparent;
+    font-weight: 700;
+    color: #ee2737;
+    border: 1px solid #ee2737;
+}
+
+div#commentary_div.col-sm-5.pull-right.text-right a{
+  background-color: transparent;
+  color: #ee2737;
+  padding: 8px 20px;
+  border: 1px solid #ee2737;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+div#commentary_div.col-sm-5.pull-right.text-right a:hover {
+  background-color: #ee2737;
+  color: #ffffff;
+}
+
+
+#second_step_system button{
+	background-color: transparent;
+    font-weight: 700;
+    color: #ee2737;
+    border: 1px solid #ee2737;
+}
+
+#extra_message_container{
+	margin-top: 10px !important;
+}
+
+#extra_message_container .extra_message span{
+	font-size: 14px !important;
+}
+
+.mt10 .pull-left a{
+Font-size: 14px;
+}
+
+#locationContentSide .bookingContainer .CMiframeContainer body{
+	padding-bottom: 0px !important;	
+}
+
+input.reservarButton:hover {
+	background-color: transparent;
+    font-weight: 700;
+    color: #ee2737;
+    border: 1px solid #ee2737;
+}
+
+#locationContentSide .bookingContainer{
+	background-color: #f4f4f4 !important;
+	overflow-y: scroll;	
+}
+
+#personas_box label{
+	font-weight: 500 !important;
+	font-family: 'Nunito Sans', sans-serif;
+    color: #000000;
+    font-size: 17px;
+}
+
+#hour_box label{
+	font-weight: 500 !important;
+	font-family: 'Nunito Sans', sans-serif;
+    color: #000000;
+    font-size: 17px;
+}
+
+#extra_box label{
+	font-weight: 500 !important;
+	font-family: 'Nunito Sans', sans-serif;
+    color: #000000;
+    font-size: 17px;
+	margin-top: 10px;
+    display: none;
+}
+#extra_box select {
+    margin-top: 10px;
+}
+#goback_search + div.mt10 {
+    display: none !important;
+}
+
+.text-center{
+	font-family: 'Nunito Sans', sans-serif;
+    color: #000000;
+    font-size: 17px;
+	margin-top: 10px;
+}
+
+#searchwithoutbottom{
+	font-family: 'Nunito Sans', sans-serif;
+    color: #000000;
+    font-size: 15px;
+	margin-top: 10px;
+}
+
+.table{
+	border-color: none;
+}
+
+.text-center button{
+	background-color: #ee2737;
+    color: #fff;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid #ee2737;
+}
+
+
+.text-center button:hover{
+	background-color: transparent;
+    font-weight: 700;
+    color: #ee2737;
+    border: 1px solid #ee2737;
+}
+
+
+button#btn-validate.form-control.reservarButton.step2{
+	background-color: #ee2737;
+    color: #fff;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid #ee2737;
+	height: 40px;
+}
+
+button#btn-validate.form-control.reservarButton.step2:hover{
+	background-color: transparent;
+    font-weight: 700;
+    color: #ee2737;
+    border: 1px solid #ee2737;
+}
+
+
+
+.btn .btn-default .bottomsearch{
+	background-color: #ee2737;
+    color: #fff;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid #ee2737;
+}
+
+.btn .btn-default .bottomsearch:hover{
+	background-color: transparent;
+    font-weight: 700;
+    color: #ee2737;
+    border: 1px solid #ee2737;
+}
+
+#name_accort_user, #email_user, #phone_user{
+	font-family: 'Nunito Sans', sans-serif;
+    color: #000000;
+    font-size: 15px;
+}
+
+#user_last_name {
+    margin-bottom: 13px;
+}
+
+.ui-datepicker .ui-datepicker-header{
+	font-weight: 500 !important;
+	font-family: 'Nunito Sans', sans-serif;
+    color: #000000;
+    font-size: 17px;
+}
+
+
+#locationContentSide .bookingContainer h2 {
+    font-size: 22px;
+    font-weight: 700;
+	margin-bottom: 10px;
+}
+
+#reservar_button button{
+	background-color: #ee2737;
+    color: #fff;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid #ee2737;
+}
+
+#datepicker{
+	padding-bottom: 20px;
+}
+
+.color_res a {
+    color: black;
+}
+.ui-datepicker.ui-widget {
+    border: 0;
+}
+.ui-datepicker .ui-datepicker-header {
+    border: 0;
+}
+.ui-datepicker .ui-datepicker-title {
+    color: #ee2737;
+}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+    border-color: white;
+    text-align: center;
+}
+
+.title_name_of {
+    font-family: 'Nunito Sans', sans-serif;
+    color: black;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+#have_es {
+    font-size: 100%;
+    text-decoration: none;
+	font-weight: 700;
+}
+
+.legal_notice {
+    font-size: 10px;
+    border-top: 1px solid white;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+#alert_time {
+    background-color: white;
+    color: #ee2737;
+    font-size: 12px;
+    border: 0;
+    border-top: 4px solid #ee2737;
+    padding: 12px 20px;
+    text-align: center;
+}
+#reloj {
+    font-weight: 700;
+}
+
+#reservarButton{
+	background-color: #ffffff !important;
+	color: #ee2737 !important;
+	padding: 8px 20px !important;
+	border: 1px solid #ee2737 !important;
+	text-decoration: none !important;
+	font-size: 15px !important;
+}
+
+#people-box-select, #hour-box-select {
+    margin-top: 0;
+}
+#extra_message_container {
+    margin-top: 0 !important;
+}
+#reservar_button {
+    margin-top: 0 !important;
+}
